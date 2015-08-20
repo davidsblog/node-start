@@ -1,5 +1,5 @@
 # node-start
-A Dockerfile for running node.js projects
+A Dockerfile for running node.js projects.
 
 You can test it is working like this:
 
