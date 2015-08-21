@@ -9,7 +9,7 @@ RUN n stable
 
 RUN mkdir /usr/local/start
 WORKDIR /usr/local/start
-RUN echo "{ \"name\":\"start\"  }" > package.json
+RUN echo "{ \"name\" : \"start\"  }" > package.json
 RUN npm install --save express
 RUN npm install --save body-parser
 
